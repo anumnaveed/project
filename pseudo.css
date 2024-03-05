@@ -1,0 +1,29 @@
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    padding: 10px;
+}
+a:hover{
+    color: brown;
+}
+
+nav ul li a:hover .dropdown{
+    transform: scale(1);
+
+}
+.dropdown{
+    flex-direction: column;
+    background-color: black;
+    margin-left: -20px;
+    transform: scale(0);
+
+}
